@@ -16,5 +16,5 @@ sniffio
 soupsieve
 starlette
 typing_extensions
-urllib3==2.1.0
+urllib3
 uvicorn==0.24.0.post1
