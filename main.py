@@ -32,7 +32,7 @@ def get_data(village_id):
         else:
             col_name.append(parameters[i])
 
-    return col_name, col_val
+    return dict(zip(col_name, col_val))
 
 @app.get("/village/{village_id}")
 def read_item(village_id: int):
