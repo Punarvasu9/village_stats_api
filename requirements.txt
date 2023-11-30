@@ -7,6 +7,7 @@ click==8.1.7
 colorama==0.4.6
 exceptiongroup==1.2.0
 fastapi
+gunicorn==19.7.1
 h11==0.14.0
 idna==3.6
 pydantic==2.5.2
